@@ -34,11 +34,27 @@
 
 ## AUDITORIA SSH
   ### 1. OPCIÓ POLITIQUES SEGURETAT
+      - Escollir entre els tipus de política (segons si ets client o servidor)
+      - Introduir la IP associada al host
+        Resultat:
+              - Host
+              - Política escollida
+              - Resultat de l'auditoria
+              - Errors trobats durant el procés
+              
   ### 2. OPCIÓ AUTID
+      Introduim la ip del host al qual es fara un escaneig de la configuració del OpenSSH
+      Resultat: Sortides en color verd -> Bona pràctiva
+                Sortides en color groc -> Configuracions millorables
+                Sortides en vermell -> Mala configuració
   ### 3. SORTIR
 
 ## ENUMERACIÓ
-  ### 1. LLISTAR USUARIS
+  ### 1. LLISTAR USUARIS (necessari tenir port 139 (samba) obert)
+      **S'ha de tenir en compte si ens hem instal·lat l'OpenSSH server o client**
+      Introduir la ip del host al qual ser li farà la cerca
+
+              
   ### 2. LLISTAR PC
   ### 3. POLITICA D'INFORMACIÓ
   ### 4. LLISTAR RECURSOS COMPARTITS
