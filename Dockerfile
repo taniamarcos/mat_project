@@ -32,4 +32,4 @@ RUN apt update && apt install nmap -y
 
 #CMD ["/usr/local/bin/python3","/projecte/mat.py"]
 
-ENTRYPOINT ["/usr/local/bin/python3","/projecte/mat.py"]
+#ENTRYPOINT ["/usr/local/bin/python3","/projecte/mat.py"]

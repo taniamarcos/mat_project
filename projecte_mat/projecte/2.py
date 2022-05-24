@@ -1,9 +1,9 @@
-print("Posa les teves opcions ")
-print("Domini")
+print("Introdueix les opcions necessaries: ")
+print("Domini: ")
 lloc = input()
-print("Total busquedes")
+print("Total de cerques: ")
 total = input()
-print("Mes opcions")
+print("Aplicacio on buscar els filtres: ")
 mesop = input()
 from subprocess import call
 call(["python3" ,"theHarvester.py", '-d', lloc,"-l",total,"-b",mesop])

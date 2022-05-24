@@ -1,6 +1,6 @@
 print("Auditoria ssh")
 print("")
-print("IP:")
+print("Introdueix la IP del host:")
 mesop = input()
 print("")
 

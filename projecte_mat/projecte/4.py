@@ -17,19 +17,19 @@ def pedirNumeroEntero():
  
 salir = False
 opcion = 0
-ip_addr = '192.168.202.147'
+#ip_addr = '192.168.202.147'
 scanner = nmap.PortScanner()
  
 while not salir:
    
-    print ("1. Descobrir hosts de xarxa")
+    print ("1. Descobrir l'estat del host")
     print ("2. Llistar serveis i versions dels ports oberts")
     print ("3. Llistar vulnerabilitats d'un rang")
     print ("4. Salir")
     opcion = pedirNumeroEntero()
 
     if opcion == 1:
-        host=input("[+] Introduix la xarxa: ")
+        host=input("[+] Introduix la IP del host: ")
         nm = nmap.PortScanner()
         nm.scan(hosts=host, arguments='-n -sP --script vuln')
         hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]
@@ -38,7 +38,7 @@ while not salir:
             print(host + ' ' + status)
    
     elif opcion == 2:
-        host=input("[+] Introduix la IP objetivo:")
+        host=input("[+] Introduix la IP de l'objectiu: ")
         nm=nmap.PortScanner()
         results=nm.scan(host)
         #print (results)
@@ -69,6 +69,6 @@ while not salir:
     elif opcion == 4:
         salir = True
     else:
-       print ("Introduce un numero entre 1 y 6")
+       print ("Introdueix un numero entre 1 y 6")
 
-print ("Bye :)")
+print ("Adeu :)")

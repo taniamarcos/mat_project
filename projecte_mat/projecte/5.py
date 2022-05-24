@@ -6,10 +6,10 @@ def pedirNumeroEntero():
     num=0
     while(not correcto):
         try:
-            num = int(input("Tria la opcio: "))
+            num = int(input("Tria l'opcio: "))
             correcto=True
         except ValueError:
-            print('Error, introduce un numero entero')
+            print('Error, introdueix un numero enter')
      
     return num
  
@@ -18,14 +18,14 @@ opcion = 0
  
 while not salir:
  
-    print ("1. Opcion Politiques seguretat")
-    print ("2. Opcion Audit")
-    print ("3. Salir")
+    print ("1. Opcio Politiques Seguretat")
+    print ("2. Opcio Audit")
+    print ("3. Sortir")
     opcion = pedirNumeroEntero()
 
     if opcion == 1:
        print ("")
-       print ('Has triat poliques')
+       print ('Has triat poliques de seguretat')
        call(["python3","/projecte/ssh-audit/sshack.py"])
     elif opcion == 2:
        print ("")
@@ -34,6 +34,6 @@ while not salir:
     elif opcion == 3:
        salir = True
     else:
-       print ("Introduce un numero entre 1 y 3")
+       print ("Introdueix un numero entre 1 y 3")
 
-print ("Bye :)")
+print ("Adeu :)")

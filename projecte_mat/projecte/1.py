@@ -1,11 +1,12 @@
 import shodan
 from subprocess import call
-# Configuration
+#Configuració
+
 API_KEY = 'oelxCyCDvzlcHmi3TVVVvMKznkwWQMoc'
 api = shodan.Shodan(API_KEY)
 
 print ('')
-print ('Introdueix una IP: ')
+print ('Introdueix la IP del host: ')
 ip = input()
 results = api.host(ip)
 for item in results['data']:
