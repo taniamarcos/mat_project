@@ -44,6 +44,7 @@ while not salir:
        print ('Has APi shodan')
        call(["python3","1.py"])
        print ("")
+       call(["clear"])
     elif opcion == 2:
        print ("")
        print ('Harvester')

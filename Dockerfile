@@ -24,6 +24,20 @@ RUN pip install shodan
 
 RUN pip install aiodns
 
+WORKDIR /projecte/osint/wafw00f
+
+RUN python3 setup.py install
+
+WORKDIR /
+
+RUN chmod +x /projecte/osint/uDork/uDork.sh
+
+RUN pip3 install -r /projecte/osint/mosint/requirements.txt
+
+RUN python3 -m pip install -r /projecte/osint/ghunt/requirements.txt
+
+RUN apt install golang -y
+
 RUN apt install rsync -y
 
 RUN python3 -m pip install -r projecte/requirements.txt

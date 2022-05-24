@@ -11,8 +11,7 @@ def banner():
 banner()
 
 print("Opcions disponbles:")
-print("- email \n - doc \n - gaia\n
- - youtube ")
+print("- email \n - doc \n - gaia\n - youtube ")
 
 correu = input()
 
