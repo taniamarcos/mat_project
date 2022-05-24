@@ -10,7 +10,7 @@ def banner():
     print("(+) By MAT \n")
 banner()
 
-print("Introdueix Correu:")
+print("Introdueix el correu:")
 correu = input()
 
 call(["holehe",correu])

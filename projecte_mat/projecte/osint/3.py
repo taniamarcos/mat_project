@@ -10,7 +10,7 @@ def banner():
     print("(+) By MAT \n")
 banner()
 
-print("Introdueix domini:")
+print("Introdueix el domini:")
 domini = input()
 print("Opcions disponbles:")
 print("-e all o -e extensio \n-t ""Twitter angel"" for twitter \n-u all search all \n-g admins Lists administration ")

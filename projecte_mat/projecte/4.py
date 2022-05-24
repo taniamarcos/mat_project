@@ -8,10 +8,10 @@ def pedirNumeroEntero():
     num=0
     while(not correcto):
         try:
-            num = int(input("Tria la opcio: "))
+            num = int(input("Tria l'opcio: "))
             correcto=True
         except ValueError:
-            print('Error, introduce un numero entero')
+            print('Error, introdueix un numero enter')
      
     return num
  
@@ -25,11 +25,11 @@ while not salir:
     print ("1. Descobrir l'estat del host")
     print ("2. Llistar serveis i versions dels ports oberts")
     print ("3. Llistar vulnerabilitats d'un rang")
-    print ("4. Salir")
+    print ("4. Sortir")
     opcion = pedirNumeroEntero()
 
     if opcion == 1:
-        host=input("[+] Introduix la IP del host: ")
+        host=input("[+] Introduix la xarxa. P.ex: 192.168.202.0/24: ")
         nm = nmap.PortScanner()
         nm.scan(hosts=host, arguments='-n -sP --script vuln')
         hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]
@@ -38,7 +38,7 @@ while not salir:
             print(host + ' ' + status)
    
     elif opcion == 2:
-        host=input("[+] Introduix la IP de l'objectiu: ")
+        host=input("[+] Introdueix la IP de l'objectiu: ")
         nm=nmap.PortScanner()
         results=nm.scan(host)
         #print (results)

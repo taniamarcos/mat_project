@@ -29,14 +29,14 @@ opcion = 0
  
 while not salir:
  
-    print ("1. APi shodan")
+    print ("1. API Shodan")
     print ("2. Harvester")
     print ("3. OSINT")
     print ("4. Escaneig Nmap")
     print ("5. Auditoria SSH")
-    print ("6. Enumeració")
+    print ("6. Enumeracio")
     print ("7. Enviar Informe")
-    print ("8. Salir")
+    print ("8. Sortir")
     opcion = pedirNumeroEntero()
 
     if opcion == 1:
@@ -44,7 +44,6 @@ while not salir:
        print ('Has APi shodan')
        call(["python3","1.py"])
        print ("")
-       call(["clear"])
     elif opcion == 2:
        print ("")
        print ('Harvester')
@@ -78,5 +77,5 @@ while not salir:
     elif opcion == 8:
        salir = True
     else:
-       print ("Tria Opcio")
-print ("Bye :)")
+       print ("Tria una opcio")
+print ("Adeu :)")

@@ -10,7 +10,7 @@ def banner():
     print("(+) By MAT \n")
 banner()
 
-print("Introdueix Domini URL:")
+print("Introdueix la URL:")
 URL = input()
 
 call(["wafw00f",URL])
