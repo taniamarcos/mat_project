@@ -1,9 +1,24 @@
 # MAT PROJECT
 
-Ubicació script: /projecte
-Execució: python3 mat.py
+**Alçar contenidor**
 
-<img src="/imatges/mat1.png" width="550" title="hover text">
+  Ens ubiquem dins de la carpeta del projecte i executem:
+
+  **docker build -t python-menuscan .**
+
+**Executar contenidor**
+
+  **docker run -it python-menuscan bash**
+
+**Eliminar contenidor**
+
+  **docker rmi python-menuscan**
+
+**Ubicació script: /projecte**
+
+**Execució: python3 mat.py**
+
+<img src="/imatges/mat.png" width="550" title="hover text">
 
 **MENÚ:**
 1. API Shodan

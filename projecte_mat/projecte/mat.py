@@ -17,7 +17,7 @@ def pedirNumeroEntero():
     num=0
     while(not correcto):
         try:
-            num = int(input("Tria la opcio: "))
+            num = int(input("Tria una opcio: "))
             correcto=True
         except ValueError:
             print('Error, introduce un numero entero')
@@ -66,7 +66,7 @@ while not salir:
        print ("")
     elif opcion == 6:
        print ("")
-       print ('Enumeració')
+       print ('Enumeracio')
        call(["python3","enumeracio/6.py"])  
        print ("") 
     elif opcion == 7:
