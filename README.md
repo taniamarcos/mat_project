@@ -1,6 +1,6 @@
 # MAT PROJECT
 **MENÚ:**
-1. APi shodan
+1. API Shodan
 2. Harvester
 3. OSINT
 4. Escaneig Nmap
