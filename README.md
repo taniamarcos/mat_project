@@ -3,7 +3,7 @@
 Ubicació script: /projecte
 Execució: python3 mat.py
 
-<img src="/home/alumne/Vídeos/mat_project/imatges/mat1.png">
+<img src="/imatges/mat1.png" width="350" title="hover text">
 
 **MENÚ:**
 1. API Shodan
