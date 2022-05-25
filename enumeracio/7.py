@@ -3,7 +3,7 @@ import pyfiglet
 from subprocess import call
 def banner():
 
-    ascii_banner = pyfiglet.figlet_format("Enumaració")
+    ascii_banner = pyfiglet.figlet_format("Enumaracio")
     print("---------------------------------------")
     print(ascii_banner)
     print("---------------------------------------")
@@ -17,10 +17,10 @@ def pedirNumeroEntero():
     num=0
     while(not correcto):
         try:
-            num = int(input("Tria la opció: "))
+            num = int(input("Tria la opcio: "))
             correcto=True
         except ValueError:
-            print('Error, introdueix un numero senser')
+            print('Error, introdueix un numero enter')
 
     return num
 
@@ -31,10 +31,10 @@ while not salir:
 
     print ("1. Llistar usuaris")
     print ("2. Llistar pc")
-    print ("3. Politica de informació")
+    print ("3. Politica d'informacio")
     print ("4. Llistar recursos compartits")
     print ("5. Llistar grups i membres")
-    print ("6. Perzonalització")
+    print ("6. Perzonalitzacio")
     print ("7. Sortir")
     opcion = pedirNumeroEntero()
 
@@ -106,5 +106,5 @@ while not salir:
     elif opcion == 7:
        salir = True
     else:
-       print ("Tria opció")
-print ("Bye")
+       print ("Tria opcio")
+print ("Adeu :)")

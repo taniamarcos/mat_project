@@ -20,7 +20,7 @@ def pedirNumeroEntero():
             num = int(input("Tria una opció: "))
             correcto=True
         except ValueError:
-            print('Error, introdueix un número senser')
+            print('Error, introdueix un numero enter')
      
     return num
  
@@ -67,4 +67,4 @@ while not salir:
        
     else:
        print ("Tria Opcio")
-print ("Bye :)")
+print ("Adeu :)")
