@@ -10,15 +10,15 @@
 8. Sortir
 
 ## 1. API SHODAN
-   **Introduir IP** (associada a un domini p.ex: 8.8.8.8)
-   Resultat: Domini associat a la ip
+    **Introduir IP** (associada a un domini p.ex: 8.8.8.8)
+    Resultat: Domini associat a la ip
             Ports oberts associats al domini
             I la IP associada al domini
 ## 2. THE HARVESTER
-   Introduir domini a analitzar. P.ex: iesebre.com
-   Total busquedes (nombre enter). P.ex: 50
-   Més opcions: lloc on buscarà noms associats al domini introduït inicialment. P.ex: twitter
-   Resultat: UsuarisIPs, email i hosts associats a l'aplicació (twitter)
+    Introduir domini a analitzar. P.ex: iesebre.com
+    Total busquedes (nombre enter). P.ex: 50
+    Més opcions: lloc on buscarà noms associats al domini introduït inicialment. P.ex: twitter
+    Resultat: UsuarisIPs, email i hosts associats a l'aplicació (twitter)
 
 ## 3. OSINT
   ### 3.1 HOLEHE
