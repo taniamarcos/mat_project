@@ -1,4 +1,7 @@
 # MAT PROJECT
+Ubicació script: /projecte
+Execució: python3 mat.py
+<img src="/home/alumne/Imatges/mat1.png">
 **MENÚ:**
 1. API Shodan
 2. Harvester
