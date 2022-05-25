@@ -60,14 +60,14 @@
   ### 3.6 SORTIR
    
 ## 4 ESCANEIG NMAP
-   ### 4.1. DESCOBRIR HOSTS DE XARXA
+   ### 4.1 DESCOBRIR HOSTS DE XARXA
           Introduir la ip del host (la qual volem saber si està up o no)
           Resultat: Si està actiu el host, acompanya la'IP':'up'
-   ### 4.2. LLISTAR SERVEIS I VERSION DELS PORTS OBERTS
+   ### 4.2 LLISTAR SERVEIS I VERSION DELS PORTS OBERTS
           Introduir la ip del host, el qual està up
           Resultat: Host, estat (up o no), protocols utilitzats, i ports oberts amb el seu respectiu estat.
           
-   ### 4.3. LLISTAR VULNERABILITATS D'UN RANG
+   ### 4.3 LLISTAR VULNERABILITATS D'UN RANG
         *Acabar d'implementar
    ### 4.4 SORTIR
 
