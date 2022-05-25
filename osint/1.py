@@ -1,5 +1,6 @@
 import pyfiglet
 from subprocess import call
+f=open('2.txt','w')
 call(["clear"]) 
 def banner():
 
@@ -14,6 +15,7 @@ print("Introdueix Correu:")
 correu = input()
 
 call(["holehe",correu])
+call(["holehe",correu],stdout=f)
 
 
 

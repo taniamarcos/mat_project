@@ -16,5 +16,5 @@ def enviarDocumento(ruta):
         requests.post('https://api.telegram.org/bot' + bot_token + '/sendDocument',
                 files={'document': (ruta, open(ruta, 'rb'))},
                 data={'chat_id': bot_chatID, 'caption': 'Document python'}) 
-enviarDocumento("1.py")
+enviarDocumento("informe.txt")
   

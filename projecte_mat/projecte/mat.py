@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import pyfiglet
+import os
 from subprocess import call
+f=open('informe.txt','w')
 def banner():
 
     ascii_banner = pyfiglet.figlet_format("Auditoria    MAT")
@@ -43,6 +45,7 @@ while not salir:
        print ("")
        print ('API Shodan')
        call(["python3","1.py"])
+       call(["python3","1.py"],stdout=f)
        print ("")
     elif opcion == 2:
        print ("")
@@ -72,7 +75,9 @@ while not salir:
     elif opcion == 7:
        print ("")
        print ('Enviar Informe')
-       call(["python3","7.py"])  
+       #os.system("cat 1.txt > informe.txt")
+       #os.system("cat 2.txt >> informe.txt")
+       call(["python3","7.py"])
        print ("") 
     elif opcion == 8:
        salir = True
