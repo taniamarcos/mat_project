@@ -41,7 +41,7 @@ while not salir:
 
     if opcion == 1:
        print ("")
-       print ('Has APi shodan')
+       print ('API Shodan')
        call(["python3","1.py"])
        print ("")
     elif opcion == 2:
