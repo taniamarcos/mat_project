@@ -4,15 +4,15 @@
 
   Ens ubiquem dins de la carpeta del projecte i executem:
 
-  **docker build -t python-menuscan .**
+  *docker build -t python-menuscan .*
 
 **Executar contenidor**
 
-  **docker run -it python-menuscan bash**
+  *docker run -it python-menuscan bash*
 
 **Eliminar contenidor**
 
-  **docker rmi python-menuscan**
+  *docker rmi python-menuscan*
 
 **Ubicació script: /projecte**
 
