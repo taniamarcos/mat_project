@@ -72,7 +72,7 @@
   ### 3.6 SORTIR
    
 ## 4 ESCANEIG NMAP
-   ### 4.1. DESCOBRIR HOSTS DE XARXA
+   ### 4.1 DESCOBRIR HOSTS DE XARXA
           Introduir la ip del host (la qual volem saber si està up o no)
           Resultat: Si està actiu el host, acompanya la'IP':'up'
 
@@ -83,9 +83,11 @@
           Resultat: Host, estat (up o no), protocols utilitzats, i ports oberts amb el seu respectiu estat.
 
 <img src="/imatges/nmap2.png" width="550" title="hover text">
+          
+   ### 4.3 LLISTAR VULNERABILITATS D'UN RANG
 
-   ### 4.3. LLISTAR VULNERABILITATS D'UN RANG
         *Acabar d'implementar
+
    ### 4.4 SORTIR
 
 ## 5. AUDITORIA SSH
