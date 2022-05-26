@@ -57,14 +57,14 @@ while not salir:
         # Aquí, v s'utilitza per verbose, el que significa que si se selecciona, donarà informació adicional
         # 1-1024 significa el número de port on volem cercar
         # -sS significa realitzar una exploració de connexió TCP SYN, envia els paquets SYN a l'amfitrió
-        scanner.scan(ip_addr, '1-1024', '-n -sS --script vulners')
+        scanner.scan(ip_addr, '1-1024', '-n -sU --script vulners')
         print(scanner.scaninfo())
         # state() ens indica si el target està up o down
         print("Ip Status: ", scanner[ip_addr].state())
         # all_protocols() ens indica quins protocols estan disponibles TCP UDP etc
         #nmap.nmap.PortScannerError: 'An option is required for -s, most common are -sT (tcp scan), -sS (SYN scan), -sF (FIN scan), -sU (UDP scan) and -sn (Ping scan)\n'
         print("protocols:", scanner[ip_addr].all_protocols())
-        print("Open Ports: ", scanner[ip_addr]['tcp'].keys())
+        print("Open Ports: ", scanner[ip_addr]['udp'].keys())
 
     elif opcion == 4:
         salir = True
