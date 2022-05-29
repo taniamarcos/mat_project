@@ -147,8 +147,9 @@
 ## 8. SORTIR
 
 
-**Documentació i Web
+** Documentació i Web
 WEB: https://mat.onrender.com
+
 URL: https://mat.onrender.com/docu_tecnica.md
    
    
